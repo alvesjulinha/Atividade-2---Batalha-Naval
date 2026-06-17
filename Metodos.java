@@ -179,7 +179,7 @@ public class Metodos {
                 tabuleiroReal[linha][coluna] = 'X';
                 tabuleiroAtaques[linha][coluna] = 'X';
 
-                System.out.println("ACERTOU!");
+                System.out.println("Acertou");
                 return true;
 
             } else {
@@ -252,9 +252,9 @@ public class Metodos {
             }
 
             if (verificarFimDeJogo(tabuleiroReal)) {
-                System.out.println("\nATACANTE VENCEU!");
+                System.out.println("\nVitória do Atacante");
             } else {
-                System.out.println("\nCRIADOR VENCEU!");
+                System.out.println("\nVitória do Criador");
             }
         }
 
