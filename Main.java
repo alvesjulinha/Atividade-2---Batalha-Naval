@@ -2,8 +2,6 @@
 
 import java.util.Scanner;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
 // Tabuleiro com os navios
@@ -25,7 +23,7 @@ public class Main {
         System.out.println("\nTabuleiro do Criador:");
         Metodos.exibirTabuleiro(tabuleiroReal);
 
-        // Esconde o tabuleiro
+        // Esconde os navios do atacante para o ínicio do ataque
         System.out.println("\nTroque de jogador e pressione ENTER para continuar");
         Scanner sc = new Scanner(System.in);
         sc.nextLine();
@@ -34,7 +32,6 @@ public class Main {
             System.out.println();
         }
 
-        // Inicia a fase de ataques
         System.out.println("Ataque");
         Metodos.iniciarAtaques(tabuleiroReal, tabuleiroDeAtaques);
 
