@@ -191,7 +191,7 @@ public class Metodos {
             }
         }
 
-        // Faz uma rodada de ataque
+        // Rodada de ataque
         public static void realizarRodadaAtaque(char[][] tabuleiroReal,
                                                 char[][] tabuleiroAtaques) {
 
