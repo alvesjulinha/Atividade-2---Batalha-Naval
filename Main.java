@@ -11,7 +11,7 @@ public class Main {
 
         char[][] tabuleiroDeAtaques = new char[10][10];
 
-        // Inicializa os dois tabuleiros com água
+        // Inicia os dois tabuleiros
         Metodos.iniciarTabuleiro(tabuleiroReal);
         Metodos.iniciarTabuleiro(tabuleiroDeAtaques);
 
