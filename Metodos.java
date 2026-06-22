@@ -100,17 +100,17 @@ public class Metodos {
                     case 1:
                         dl = 0;
                         dc = 1;
-                        break;
+                        break; //Colunas
 
                     case 2:
                         dl = 1;
                         dc = 0;
-                        break;
+                        break; //Linhas
 
                     case 3:
                         dl = 1;
                         dc = 1;
-                        break;
+                        break; //Diagonal
 
                     default:
                         System.out.println("Direção inválida!");
